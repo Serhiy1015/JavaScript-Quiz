@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+    background: #1D6056;
+    font-family: 'Outfit', sans-serif;
+}
+
+.app {
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 30px;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.app h1 {
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+#question {
+    text-align: center;
+    color: #E7F4E7;
+    font-size: calc(16px + .6vw);
+}
+
+h4 {
+    color: #E7F4E7;
+
+}
+
+.quiz h2 {
+    font-size: 18px;
+}
+
+.btn {
+    background: #E7F4E7;
+    color: #222;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 30px;
+    font-family: 'Outfit', sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover:not([disabled]) {
+    background: #222;
+    color: #fff;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next-btn {
+    background: linear-gradient(86.35deg, #D4FA62 6.43%, #E8FEA5 101.27%);
+    -webkit-box-shadow: 0px 4px 20px rgba(213, 250, 102, 0.15);
+    box-shadow: 0px 4px 20px rgba(213, 250, 102, 0.15);
+    border-radius: 80px;
+    width: 100%;
+    color: #1D6056;
+    text-transform: uppercase;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    height: 48px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.correct {
+    background-color: #9aeabc;
+}
+
+.incorrect {
+    background-color: #ff9393;
+}
+.next-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
